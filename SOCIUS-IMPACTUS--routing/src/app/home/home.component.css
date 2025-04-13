@@ -1,5 +1,12 @@
+body{
+    background-color: #fbf5ef;
+    width: 100vw;               /* ocupa 100% da largura da viewport largura */
+    height: 100vh;              /* ocupa 100% da altura da viewport cumprimento*/
+    margin: 0 auto;
+}
 .container {
-    max-width: 100%;
+    width: 100vw;               /* ocupa 100% da largura da viewport */
+    height: 100vh;              /* ocupa 100% da altura da viewport */
     margin: 0 auto;
     padding: 20px;
     background-color: #fbf5ef;
@@ -13,8 +20,8 @@ header {
     padding: 20px 0;
 }
 
-header h1 {
-    font-size: 2.5rem;
+header h1{
+    font-size: 3rem;
     color: #4D6F4D; /* Cor verde */
     margin-top: 0.5rem;
     margin-left: 2rem;
@@ -25,8 +32,85 @@ header h1 {
 
 .menu button{
     margin-right: 3rem;
+    color: #f9e9dc;
+    background-color: #4D6F4D;
 }
 
 .menu {
     align-items:end;
 }
+
+section h3{
+    font-size: 5rem;
+    font-family: "PT Serif", serif;
+    margin-left: 56rem;
+    color: #927348;
+}
+section button{
+    margin-right: 3rem;
+    margin-left: 70rem;
+    color: #f9e9dc;
+    background-color: #644c2b;
+    padding: 30px 40px ;
+    font-size: 1.5rem;
+
+
+}
+
+.nossaMissao{
+    font-size: 2rem;
+    margin-top: 13%;
+    background-color: #fbf5ef;
+    font-family: "PT Serif", serif;
+    color: #374f37;
+    margin-left: 4rem;
+    height: 60vh; 
+}
+
+
+.NossosValores{
+    font-size: 2rem;
+    margin-top: 20%;
+    font-family: "PT Serif", serif;
+    background-color:  #87b787;
+    height: 69vh;
+    width: 102vw;
+    color: #2c402c;
+    
+}
+
+.missao{
+     background-color: #927348;
+    color:  #fbf5ef;
+    margin-left: 0.50rem;
+    width: 30vw;
+    padding: 0.9px 10px ;
+    border-radius: 10%;
+}
+
+.visao{
+    background-color: #927348;
+    color:  #fbf5ef;
+    width: 30vw;
+    padding: 0.9px 10px ;
+    border-radius: 10%;
+    margin-left: 33%;
+    margin-top: -447px;
+    height: 55vh;
+}
+
+.valores{
+    background-color: #927348;
+    color:  #fbf5ef;
+    width: 30vw;
+    padding: 0.9px 20px ;
+    border-radius: 10%;
+    margin-left: 65%;
+    margin-top: -447px;
+    height: 55vh;
+}
+
+    
+
+   
+
