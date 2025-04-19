@@ -5,5 +5,6 @@ import { ContatosComponent } from './contatos/contatos.component';
 export const routes: Routes = [
 
     {path: "contatos", component: ContatosComponent},
+    {path: "home" , component: HomeComponent},
     {path: "**", component: HomeComponent}
 ];
