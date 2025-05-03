@@ -1,19 +1,44 @@
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-</head>
-
-<body>
 <div class="container">
     <header>
         <h1>Socius Impactus</h1>
         <div class="menu">
-          <button mat-flat-button>Home</button>
-            <button mat-flat-button>Sobre</button>
-            <button mat-flat-button>Projetos</button>
+           <a href="/home"> <button mat-flat-button>Home</button></a>
+            <a href="/projetos"><button mat-flat-button>Projetos</button></a>
         <a href="/contatos"> <button mat-flat-button>Contatos</button> </a>
         </div>
     </header>
         <h3>Contatos</h3>
-   
+        <div class="contatos">
+            <div class="midias">
+                <h2>Midias Sociais</h2>
+               <p>WhatsApp (19) 99475-0662</p>
+         <a href="https://www.instagram.com/sociusimpactus/?next=%2F"> Instagram sociusimpactus</a>
+            </div>
+            <form [formGroup]="contactForm" (ngSubmit)="sendEmail()">
+                 <div class="caixas">
+                     <h2>Nos envie uma Menssagem</h2>
+                     <p>Nome</p>
+                     <mat-form-field appeareance="nome">
+                         <mat-label>Digite seu nome</mat-label>
+                         <input formControlName="name" matInput placeholder="Seu nome completo">
+                     </mat-form-field>
+
+                     <p>Assunto</p>
+                     <mat-form-field appeareance="assunto">
+                         <mat-label></mat-label>
+                         <input formControlName="assunto" matInput placeholder="Assunto">
+                     </mat-form-field>
+
+                     <p>Menssagem</p>
+                     <mat-form-field>
+                         <mat-label>Menssagem</mat-label>
+                         <textarea formControlName="message" matInput></textarea>
+                      </mat-form-field>
+                       <div class="botao">
+                         <button type="submit" mat-flat-button>Saiba mais</button>
+                     </div>
+                     </div>
+            </form>
+
+        </div>
+        <div class="barra"></div>>

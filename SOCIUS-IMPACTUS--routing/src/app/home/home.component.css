@@ -118,6 +118,26 @@ section button{
     height: 57vh;
 }
 
+.texto{
+    align-items: center;
+    /* display: flex; */
+    justify-items: center;
+    justify-content: center;
+}
+
+.sobre {
+    font-family: "PT Serif", serif;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color:#7b5230 ;
+   
+}
+
+.sobre p{
+    font-size: 1.5rem;
+}
+
     
 
    
