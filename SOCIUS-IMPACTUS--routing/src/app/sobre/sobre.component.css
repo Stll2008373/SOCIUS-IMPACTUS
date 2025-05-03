@@ -1,0 +1,48 @@
+body{
+    background-color: #fbf5ef;
+    /* width: 98vw;                */
+    height: 100vh;              /* ocupa 100% da altura da viewport cumprimento*/
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header h1{
+    font-size: 3rem;
+    color: #4D6F4D; /* Cor verde */
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;}
+
+    .container {
+    width: 96vw;               /* ocupa 100% da largura da viewport */
+    height: 100vh;              /* ocupa 100% da altura da viewport */
+    margin: 0 auto;
+    padding: 20px;
+      background-color: #fbf5ef;}
+
+    .menu button{
+    margin-right: 3rem;
+    color: #f9e9dc;
+    background-color: #4D6F4D;
+    }
+
+    h3{
+    font-size: 5rem;
+    background-color: #7b5230;
+    font-family: "PT Serif", serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #fbf5ef;
+    height: 20vh;
+    width: 96vw;
+    border-radius: 20px;
+    }
